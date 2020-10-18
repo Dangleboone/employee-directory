@@ -1,0 +1,17 @@
+.datatable .col {
+    cursor: pointer;
+    background-color:rgb(91, 185, 223);
+    color: white;
+}
+
+.datatable .col .pointer:after {
+    font-size: 70%;
+    content: "";
+    margin-right: 22px;
+}
+
+.datatable .col .pointer:hover:after {
+    font-size: 95%;
+    content: "🔻";
+    margin-right: 0;
+}
