@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -24,8 +24,15 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+* {
+  padding:0;
+  margin:0;
+}
+
+.App {
+  text-align: center;
+  font-family: sans-serif;
+  background-color: rgb(221, 236, 241);
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +43,15 @@
     transform: rotate(360deg);
   }
 }
+.App-link {
+  color: #61dafb;
+}
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
